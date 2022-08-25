@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido embebido</title>
+</head>
+<style>
+    video, img{
+        max-width: 100%;
+    }
+</style>
+<!-- 
+    DPR (Device Pixel Ratio)
+        Es la relación que existe entre los píxeles reales que tiene el dispositivo y los píxeles que tenemos disponibles para "pintar" contenido
+
+    DPR = pixeles reales / pixeles disponibles
+ -->
+<body>
+    <h1>Contenido embebido</h1>
+
+    <!--<img srcset="assets/images/imagen.webp, 
+    assets/images/imagen.jpg,
+    assets/images/imagen-mobile.webp 2x,
+    assets/images/imagen-mobile.jpg 2x" src="assets/images/imagen.jpg" alt="imagen">-->
+
+    <picture>
+        <!--<source srcset="assets/images/imagen.webp, 
+        assets/images/imagen.jpg">-->
+        <!--<source srcset="assets/images/imagen-mobile.webp, 
+        assets/images/imagen-mobile.jpg" media="(max-width:1200px)">
+        <img src="assets/images/imagen.jpg" alt="">-->
+    </picture>
+
+    <!--<audio src="assets/audio/runaway-aurora.mp3" controls autoplay muted></audio>-->
+
+    <!--<video src="assets/video/AURORA  Runaway.mp4" width="900"  controls loop poster="assets/images/runaway.jpg"></video>-->
+
+    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/hAgrrW5LM6M"></iframe>-->
+
+    <h2>Gatos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sint libero? Corrupti nisi alias dolores? Excepturi facere ratione assumenda culpa aliquid placeat quibusdam at porro praesentium, quis vel, sed quos!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dicta est non reprehenderit recusandae pariatur suscipit error maiores, tenetur eius qui facere asperiores quis odio consequatur earum quaerat at repellat.</p>
+    <figure>
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/87be6da/2147483647/strip/true/crop/1970x1108+39+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F12%2Fa5%2F79e097ccf62312d18a025f22ce48%2Fhoyla-recuento-11-cosas-aman-gatos-top-001" width="700" alt="gato">
+        <figcaption>Gato cachorro</figcaption>
+    </figure>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, dolores doloremque nobis possimus totam aliquam corporis a! Consequuntur, esse. Rem voluptatem qui, tenetur dolorum in molestias alias harum? Iure, suscipit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eveniet dolorem architecto autem asperiores suscipit iste. Quisquam laudantium, itaque eveniet ea voluptatem natus praesentium provident at officiis! Libero, perspiciatis eos.</p>
+
+    <!--<img src="assets/images/facebook.svg" alt="logo facebook">-->
+
+    <!--<img src="assets/images/imagen.jpg" width="300" alt="">-->
+
+</body>
+</html>
